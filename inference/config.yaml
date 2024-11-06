@@ -1,0 +1,5 @@
+model: "/Users/somaizsombor/projects/practica/detection/best_medium.pt" #path to object detection model
+confidence: 0.1 #confidence parameter threshold
+img_dir: "/Users/somaizsombor/Downloads/SST_2024_10_25_16_31_52" #folder containing jpg images that should be processed
+output_dir: "results_dataset_nov_5_2" #output directory
+show_confidence_of_predictions: False #True if confidence value should be shown on the results.
